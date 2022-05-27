@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+
+<html>
+
+<td>
+
+
+    </a>
+</td>
+
+<div style="height: 25px; width: 25px; padding: 10px; position: relative; top: 5px; left: 15px; color: #f62009;">
+
+    <a href="vikings.html" target="_self">
+    </a>
+
+</div>
+
+<body>
+
+
+
+    <!-- burada önerilenler kısmı tablosu eklendi-->
+    <table>
+        <div>
+
+    </table>
+
+</body>
+
+
+
+<head lang="tr">
+    <link rel="stylesheet" href="login_style.css">
+
+    <!-- sidebar (soldaki bar) eklendi-->
+    <div class="sidenav" id="sidenavBar">
+        <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()">&CircleTimes; </a>
+        <a href="#">GİRİŞ YAP</a>
+        <a href="register">KAYIT OL</a>
+        <a href="#">BİZE ULAŞIN</a>
+        <a href="#">SSS/YARDIM</a>
+        <a href="hakkimizda">HAKKIMIZDA</a>
+
+    </div>
+
+    <span class="open" onclick="openNav()">&#9776;</span>
+    <script type="text/javascript">
+
+        function openNav ()
+        {
+            document.getElementById("sidenavBar").style.width = "250px"
+        }
+        function closeNav ()
+        {
+            document.getElementById("sidenavBar").style.width = "0px"
+        }
+    </script>
+    <!--arama butonu-->
+    <link rel="stylesheet" href="/css/index_style.css" type="text/css">
+
+    <style type="text/css">
+        body {
+            font-family: "Roboto", sans-serif;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div style="position: absolute; left: 1570px;" class="search-main">
+        <input type="text" class="tbox-search">
+        <a class="btnsearch">
+            <i class="fa fa-search">
+
+            </i>
+        </a>
+
+    </div>
+    <div>
+        <a href="DPUFILM">
+            <img id="analogo"
+                style="position: absolute; top: 20px; left: 500px; height: 100px; width: 700px; padding: 0px; border-radius: 25px;">
+        </a>
+
+    </div>
+    <table>
+        <div class="rightpanel">
+
+            <a href="#">Aksiyon</a>
+            <a href="#">Macera</a>
+            <a href="#">Korku</a>
+            <a href="#">Bilim Kurgu</a>
+            <a href="#">Fantastik</a>
+            <a href="#">Animasyon</a>
+            <a href="#">Komedi</a>
+            <a href="#">Tarih</a>
+
+
+
+
+        </div>
+
+
+        </div>
+    </table>
+
+</head>
+<!-- giriş yap kısmı -->
+<form action="/userprofile" method="post">
+    <div class="imgcontainer"></div>
+    <div class="container">
+        <label><b>Kullanıcı Adı</b></label>
+        <input class="input" type="username" placeholder="Kullanıcı Adınızı Giriniz" name="username"
+            required="required">
+
+        <label><b>Şifre</b></label>
+        <input class="input" type="password" placeholder="Şifrenizi Giriniz" name="password" required="required">
+
+        <button type="submit">Giriş Yap</button>
+        <label>
+            <input type="checkbox" checked="checked" name="remember"> Beni Hatırla
+        </label>
+    </div>
+    <div class="container" style="background-color:#f1f1f1">
+        <button type="button" class="cancelbtn">İptal</button>
+        <span class="psw"><a href="#">Şifremi Unuttum</a>
+        </span>
+    </div>
+</form>
+
+
+
+
+</html>

@@ -1,0 +1,39 @@
+{
+  "scripts": {
+    "start": "nodemon start.js"
+  },
+  "dependencies": {
+    "app": "^0.1.0",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "diagram-maker": "^2.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-flash": "^0.0.2",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "http": "^0.0.1-security",
+    "http-server": "^14.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.6.0",
+    "mongoose": "^6.3.4",
+    "node": "^17.7.2",
+    "nodeman": "^1.1.2",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^7.1.2",
+    "pug": "^3.0.2"
+  },
+  "name": "projeler",
+  "version": "1.0.0",
+  "main": "start.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}

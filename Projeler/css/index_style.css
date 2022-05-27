@@ -1,0 +1,286 @@
+      body {
+          background-image:
+              url('background.jpg');
+          background-color: #f44336;
+      }
+
+      #images {
+          width: 200px;
+          height: 360px;
+          left: 75px;
+          top: 150px;
+          padding: 0px;
+          position: relative;
+          border-style: solid;
+          border-width: 2px;
+
+
+      }
+
+      #deadpool {
+          background-image: url('DPULOGO3.jpg');
+      }
+
+      #analogo {
+          position: absolute;
+          top: 20px;
+          left: 250px;
+          height: 95px;
+          width: 1145px;
+          padding: 0px;
+          border-radius: 5px;
+          background-image: url('DPULOGO3.jpg');
+          align-items: center;
+
+      }
+
+      #logo {
+          position: absolute;
+          top: 25px;
+          left: 250px;
+          height: 200px;
+          width: 500px;
+          padding: 2px;
+          border-style: solid;
+          border-width: 2px;
+      }
+
+      .zoom {
+          padding: 0px;
+          background-color: grey;
+          transition: transform .2s;
+          /* Animation */
+          width: 25px;
+          height: 25px;
+          margin: 0 auto;
+      }
+
+
+      .zoom:hover {
+          transform: scale(1.25);
+          /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+      }
+
+      .sidenav {
+          height: 100vh;
+          width: 0px;
+          position: fixed;
+          top: 0px;
+          left: 0px;
+          padding-top: 40px;
+          background-color: #111;
+          z-index: 999;
+          transition: 0.5s;
+          overflow-x: hidden;
+
+      }
+
+      .sidenav a {
+          display: block;
+          text-decoration: none;
+          font-size: 20px;
+          color: #aaa;
+          padding: 8px 8px 8px 35px;
+          transition: 0.3s;
+
+      }
+
+      .sidenav a:hover {
+          color: #f1f1f1
+      }
+
+      .closeBtn {
+          position: absolute;
+          top: 0;
+          right: 20px;
+          font-size: 36px;
+      }
+
+      .open {
+          font-size: 40px;
+          cursor: pointer;
+          position: fixed;
+          top: 10px;
+          left: 5px;
+          background-color: rgb(80, 77, 77);
+          border-radius: 5px;
+
+
+      }
+
+      .search-main {
+          background-color: black;
+          height: 40px;
+          width: 250px;
+          display: flex;
+          top: 50px;
+          align-items: center;
+          padding: 10px;
+          border-radius: 40px;
+
+
+      }
+
+      .tbox-search {
+          float: left;
+          background: none;
+          border: none;
+          outline: none;
+          color: whitesmoke;
+          font-size: 16px;
+          width: 0;
+          transition: 0.5s;
+      }
+
+      .btnsearch {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: white;
+          float: right;
+          width: 40px;
+          height: 40px;
+          border-radius: 40px;
+      }
+
+      .search-main:hover>.tbox-search {
+          width: 200px;
+
+      }
+
+      .clickable {
+          color: white;
+          text-decoration: none;
+          display: block;
+          font-size: 15px;
+
+      }
+
+      .rightpanel {
+
+          height: 1050px;
+          width: 350px;
+          left: 1520px;
+          top: 150px;
+          position: absolute;
+          background-color: #171a12;
+          border-radius: 50px;
+          padding-top: 40px;
+          padding-left: 20px;
+          opacity: 0.8;
+      }
+
+      .rightpanel a {
+          display: block;
+
+          text-decoration: none;
+          font-size: 30px;
+          color: #aaa;
+          padding: 8px 8px 8px 35px;
+          transition: 0.3s;
+      }
+
+      .rightpanel a:hover {
+          color: #f1f1f1
+      }
+
+      .oneriler {
+          height: 1100px;
+          width: 1340px;
+          left: 150px;
+          top: 150px;
+          position: absolute;
+          background-color: #171a12;
+          border-radius: 50px;
+          opacity: 0.85;
+      }
+
+      .oneriler a {
+
+          text-decoration: none;
+          font-size: 50px;
+          color: #aaa;
+          padding: 8px 8px 8px 35px;
+          transition: 0.3s;
+      }
+
+      .oneriler a:hover {
+          color: grey;
+      }
+
+      form {
+          border: 3px solid #f1f1f1;
+          position: absolute;
+          left: 400px;
+          top: 300px;
+          border-radius: 5px;
+      }
+
+
+      .input {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          box-sizing: border-box;
+      }
+
+
+      button {
+          background-color: rgb(60 97 161);
+          color: white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          cursor: pointer;
+          width: 100%;
+      }
+
+
+      button:hover {
+          opacity: 0.8;
+      }
+
+
+      .cancelbtn {
+          width: auto;
+          padding: 10px 18px;
+          background-color: #f44336;
+      }
+
+
+      .imgcontainer {
+          text-align: center;
+          margin: 24px 0 12px 0;
+      }
+
+
+      img.avatar {
+          width: 40%;
+          border-radius: 50%;
+      }
+
+
+      .container {
+          padding: 16px;
+          color: rgb(46, 204, 243);
+      }
+
+
+      span.psw {
+          float: right;
+          padding-top: 16px;
+      }
+
+
+      @media screen and (max-width: 300px) {
+          span.psw {
+              display: block;
+              float: none;
+          }
+
+          .cancelbtn {
+              width: 100%;
+          }
+      }
